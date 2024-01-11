@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="Style.css">
+    
+</head>
+<body>
+
+<div id="quiz-container">
+    <div class="question">
+        <p>1. What is the capital of France?</p>
+        <label><input type="radio" name="q1" value="Paris"> Paris</label>
+        <label><input type="radio" name="q1" value="Berlin"> Berlin</label>
+        <label><input type="radio" name="q1" value="London"> London</label>
+    </div>
+
+    <div class="question">
+        <p>2. What is the largest planet in our solar system?</p>
+        <label><input type="radio" name="q2" value="Earth"> Earth</label>
+        <label><input type="radio" name="q2" value="Jupiter"> Jupiter</label>
+        <label><input type="radio" name="q2" value="Mars"> Mars</label>
+    </div>
+
+    <div class="question">
+        <p>3. How many continents are there on Earth?</p>
+        <label><input type="radio" name="q3" value="5"> 5</label>
+        <label><input type="radio" name="q3" value="6"> 6</label>
+        <label><input type="radio" name="q3" value="7"> 7</label>
+    </div>
+
+    <button onclick="submitQuiz()">Submit</button>
+    
+
+    <div id="result"></div>
+</div>
+
+
+<script src="Script.js"></script>
+</body>
+</html>
